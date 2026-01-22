@@ -9,6 +9,7 @@ body {
   background-color: $dark-blue;
   font-size: 16px;
 }
+
 body.menu-opened {
   overflow: hidden;
 }
@@ -51,6 +52,7 @@ body.menu-opened {
   margin: 0 auto;
   padding: 0 190px;
 }
+
 .section {
   padding: 50px 0;
 }
@@ -64,6 +66,7 @@ body.menu-opened {
   margin-bottom: 30px;
   color: $white;
 }
+
 .title-h3 {
   @extend %Medium;
   font-size: 48px;
@@ -72,4 +75,17 @@ body.menu-opened {
   text-transform: uppercase;
   margin-bottom: 30px;
   color: $white;
+}
+
+.global-btn {
+  padding: 12px 40px;
+  border-radius: 5px;
+  background-color: $light-gray;
+  color: $blue;
+  cursor: pointer;
+transition: all 0.3s;
+  &:hover {
+    background-color: $light-blue;
+    color: $light-gray;
+  }
 }
