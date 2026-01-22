@@ -1,25 +1,22 @@
-// %AnPro-Regular {
-//   font-family: 'AnonymousPro-Regular', sans-serif;
-//   font-weight: normal;
-//   display: swap;
-// }
+%Bold {
+  font-family: 'Montserrat-Bold', sans-serif;
+  display: swap;
+}
 
-// %AnPro-Bold {
-//   font-family: 'AnonymousPro-Bold', sans-serif;
-//   font-weight: 700
-// }
+%Medium {
+  font-family: 'Montserrat-Medium', sans-serif;
+  display: swap;
+}
 
-// %AlGrey-Bold {
-//   font-family: 'AlegreyaSC-Bold', sans-serif;
-//   font-weight: 700;
-// }
+%Regular {
+  font-family: 'Montserrat-Regular', sans-serif;
+  display: swap;
+}
 
-// %AlGrey-Regular {
-//   font-family: 'AlegreyaSC-Regular', sans-serif;
-//   font-weight: normal;
-// }
-
-// $blue: #ABD0D3;
-// $text: #F2F1ED;
-// $background: #3B3B3B;
-// $line: #BCB3A9;
+$black: #000000;
+$gray: #4A4A4A;
+$light-gray: #EEEEEE;
+$white: #FFFFFF;
+$light-blue: #0063AC;
+$blue: #004477;
+$dark-blue: #002744;

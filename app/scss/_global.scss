@@ -1,40 +1,75 @@
 html,
 body {
-    height: 100%;
-        //   @extend %AnPro-Regular;
-        //   color: $text;
-        // position: relative;
-        // overflow-x: hidden;
-        // margin: 0 auto;
-        //   background-color: $background;
+  height: 100%;
+  @extend %Regular;
+  color: $white;
+  // position: relative;
+  // overflow-x: hidden;
+  margin: 0 auto;
+  background-color: $dark-blue;
+  font-size: 16px;
 }
+body.menu-opened {
+  overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  margin: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: $blue;
+  position: relative;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  // background-color: green;
+  background: $dark-blue;
+  border-radius: 5px;
+  border: 1px solid $blue;
+
+}
+
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 .main {
-    flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
 .footer {
-    flex: 0 0 auto;
-}
-.container{
-  // max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+  flex: 0 0 auto;
 }
 
-// .title{
-//     @extend %AlGrey-Bold;
-//     font-size: 36px;
-//     line-height: 49px;
-//     padding: 0px 35px;
-//     border-bottom: 2px solid $blue;
-//     text-align: center;
-//     margin: 0 auto;
-//     margin-bottom: 56px;
-//     max-width: fit-content;
-// }
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0 190px;
+}
+.section {
+  padding: 50px 0;
+}
+
+.title-h2 {
+  @extend %Medium;
+  font-size: 64px;
+  line-height: 70px;
+  letter-spacing: -7px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: $white;
+}
+.title-h3 {
+  @extend %Medium;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: -7px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: $white;
+}
