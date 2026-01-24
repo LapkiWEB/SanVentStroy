@@ -298,9 +298,9 @@
 }
 
 .main-screen-box {
-  font-size: 16px;
+  font-size: 20px;
   @extend %Medium;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   line-height: 26px;
   margin-bottom: 30px;
 }

@@ -9,7 +9,7 @@
   display: swap;
 }
 
-html,
+.title-h4, html,
 body {
   font-family: "Montserrat-Regular", sans-serif;
   display: swap;
@@ -151,7 +151,7 @@ body.menu-opened {
 .title-h1 {
   font-size: 96px;
   line-height: 100px;
-  letter-spacing: -5px;
+  letter-spacing: -3px;
   text-transform: uppercase;
   margin-bottom: 15px;
   color: #FFFFFF;
@@ -160,7 +160,7 @@ body.menu-opened {
 .title-h2 {
   font-size: 64px;
   line-height: 70px;
-  letter-spacing: -5px;
+  letter-spacing: -3px;
   text-transform: uppercase;
   margin-bottom: 30px;
   color: #FFFFFF;
@@ -169,8 +169,16 @@ body.menu-opened {
 .title-h3 {
   font-size: 48px;
   line-height: 52px;
-  letter-spacing: -5px;
+  letter-spacing: -3px;
   text-transform: uppercase;
+  margin-bottom: 30px;
+  color: #FFFFFF;
+}
+
+.title-h4 {
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: -3px;
   margin-bottom: 30px;
   color: #FFFFFF;
 }
@@ -410,8 +418,7 @@ body.menu-opened {
 }
 
 .main-screen-box {
-  font-size: 16px;
-  text-transform: uppercase;
+  font-size: 20px;
   line-height: 26px;
   margin-bottom: 30px;
 }
@@ -437,7 +444,7 @@ body.menu-opened {
 }
 @media (max-width: 1400px) {
   .container {
-    padding: 0 100px;
+    padding: 0 80px;
   }
   .menu__btn {
     display: block;
@@ -517,18 +524,32 @@ body.menu-opened {
   .nav.active {
     padding: 80px 150px 40px 70px;
   }
+  .main-screen-box {
+    font-size: 18px;
+  }
 }
 @media (max-width: 600px) {
   .container {
     padding: 0 20px;
+  }
+  .section {
+    padding: 30px 0px;
   }
   .title-h1 {
     font-size: 42px;
     line-height: 48px;
     letter-spacing: -3px;
   }
+  .title-h4 {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -1px;
+  }
   .header__contants .social {
     display: none;
+  }
+  .main-screen-box {
+    font-size: 16px;
   }
 }
 @media (max-width: 400px) {
