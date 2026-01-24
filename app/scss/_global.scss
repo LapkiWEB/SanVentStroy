@@ -51,17 +51,28 @@ body.menu-opened {
   max-width: 1920px;
   margin: 0 auto;
   padding: 0 190px;
+  position: relative;
 }
 
 .section {
   padding: 50px 0;
 }
 
+.title-h1 {
+  @extend %Bold;
+  font-size: 96px;
+  line-height: 100px;
+  letter-spacing: -5px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: $white;
+}
+
 .title-h2 {
   @extend %Medium;
   font-size: 64px;
   line-height: 70px;
-  letter-spacing: -7px;
+  letter-spacing: -5px;
   text-transform: uppercase;
   margin-bottom: 30px;
   color: $white;
@@ -71,7 +82,7 @@ body.menu-opened {
   @extend %Medium;
   font-size: 48px;
   line-height: 52px;
-  letter-spacing: -7px;
+  letter-spacing: -5px;
   text-transform: uppercase;
   margin-bottom: 30px;
   color: $white;
@@ -83,7 +94,11 @@ body.menu-opened {
   background-color: $light-gray;
   color: $blue;
   cursor: pointer;
-transition: all 0.3s;
+  transition: all 0.3s;
+  border: 1px solid $light-gray;
+  // width: fit-content;
+  display: inline-block;
+
   &:hover {
     background-color: $light-blue;
     color: $light-gray;
