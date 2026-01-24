@@ -62,7 +62,7 @@ body.menu-opened {
   @extend %Bold;
   font-size: 96px;
   line-height: 100px;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   text-transform: uppercase;
   margin-bottom: 15px;
   color: $white;
@@ -70,9 +70,9 @@ body.menu-opened {
 
 .title-h2 {
   @extend %Medium;
-  font-size: 64px;
-  line-height: 70px;
-  letter-spacing: -3px;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: -2px;
   text-transform: uppercase;
   margin-bottom: 30px;
   color: $white;
@@ -80,9 +80,9 @@ body.menu-opened {
 
 .title-h3 {
   @extend %Medium;
-  font-size: 48px;
-  line-height: 52px;
-  letter-spacing: -3px;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: -2px;
   text-transform: uppercase;
   margin-bottom: 30px;
   color: $white;
@@ -90,12 +90,15 @@ body.menu-opened {
 
 .title-h4 {
   @extend %Regular;
-  font-size: 36px;
-  line-height: 40px;
-  letter-spacing: -3px;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -2px;
   // text-transform: uppercase;
   margin-bottom: 30px;
   color: $white;
+}
+.text{
+  margin-bottom: 30px;
 }
 
 .global-btn {
