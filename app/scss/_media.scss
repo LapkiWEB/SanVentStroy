@@ -175,10 +175,39 @@
 
   }
 
-  // .catalog-img{
-  //   margin: 0 auto;
-  //   text-align: center;
-  // }
+  .portfolio-grid__inner {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .portfolio-grid__item {
+    height: 40vw !important;
+  }
+
+  .portfolio-grid__item-one {
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+  }
+
+  .portfolio-grid__item-two {
+    grid-column-start: span 2;
+    grid-row-start: span 1;
+  }
+
+  .portfolio-grid__item-three {
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+  }
+
+  .portfolio-grid__item-fov {
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+  }
+
+  .portfolio-grid__item-five {
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+  }
 }
 
 @media(max-width: 800px) {
@@ -222,14 +251,54 @@
   }
 
   .gallery-grid__item-three {
-    grid-column-start: span 1;
+    grid-column-start: span 2;
     grid-row-start: span 1;
   }
 
   .gallery-grid__item-fov {
-    grid-column-start: span 1;
+    grid-column-start: span 2;
     grid-row-start: span 1;
   }
+
+  .portfolio-grid__inner {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .portfolio-grid__item {
+    height: 40vw !important;
+  }
+
+  .portfolio-grid__item-one {
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+    order: 1;
+  }
+
+  .portfolio-grid__item-two {
+    grid-column-start: span 2;
+    grid-row-start: span 1;
+    order: 3;
+  }
+
+  .portfolio-grid__item-three {
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+    order: 4;
+  }
+
+  .portfolio-grid__item-fov {
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+    order: 5;
+  }
+
+  .portfolio-grid__item-five {
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+    order: 2;
+  }
+
 }
 
 @media(max-width: 600px) {
@@ -265,14 +334,14 @@
     font-size: 16px;
   }
 
-  .gallery-grid__inner {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-  }
+  // .gallery-grid__inner {
+  //   grid-template-columns: repeat(1, 1fr);
+  //   grid-template-rows: repeat(1, 1fr);
+  // }
 
-  .gallery-grid__item {
-    height: 100vw !important;
-  }
+  // .gallery-grid__item {
+  //   height: 100vw !important;
+  // }
 }
 
 @media(max-width: 400px) {

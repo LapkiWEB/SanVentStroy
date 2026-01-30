@@ -35,5 +35,5 @@ $(function () {
   }));
 
   lightGallery(document.querySelector('.gallery'));
-
+  lightGallery(document.querySelector('.portfolio'));
 });
