@@ -531,6 +531,31 @@ body.menu-opened {
   grid-row-start: span 1;
 }
 
+.adv__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.adv__item {
+  margin: 0 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+}
+
+.adv__item-img {
+  width: 60px;
+  height: 45px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
 .portfolio-grid__inner {
   display: -ms-grid;
   display: grid;
@@ -756,6 +781,14 @@ body.menu-opened {
   }
 }
 @media (max-width: 800px) {
+  .title-h2 {
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .title-h3 {
+    font-size: 26px;
+    line-height: 30px;
+  }
   .container-fluid {
     padding: 0 40px;
   }

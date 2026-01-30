@@ -288,6 +288,31 @@
 
 // end section gallery-grid
 
+// start section adv
+.adv__inner {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  // gap: 30px;
+}
+
+.adv__item {
+  margin: 0 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+}
+
+.adv__item-img {
+  width: 60px;
+  height: 45px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+// end section adv
+
 // start section portfolio
 .portfolio-grid__inner {
   display: grid;
@@ -327,7 +352,7 @@
 
 .portfolio-grid__item-two {
   grid-column-start: span 3;
-    grid-row-start: span 1;
+  grid-row-start: span 1;
 }
 
 .portfolio-grid__item-three {
@@ -339,6 +364,7 @@
   grid-column-start: span 2;
   grid-row-start: span 2;
 }
+
 .portfolio-grid__item-five {
   grid-column-start: span 2;
   grid-row-start: span 2;
