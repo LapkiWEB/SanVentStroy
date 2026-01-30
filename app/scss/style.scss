@@ -313,6 +313,26 @@
 
 // end section adv
 
+// start section certificates
+.certificates__inner {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.certificates__item {
+  // border-radius: 5px;
+  max-width: 320px;
+  width: 100%;
+
+  img {
+    border-radius: 5px;
+  }
+}
+
+// end section certificates
+
 // start section portfolio
 .portfolio-grid__inner {
   display: grid;
@@ -373,7 +393,72 @@
 // end section portfolio
 
 
+// start section request
 
+.main-request {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-request--bg {
+  // background: rgba(39, 70, 65, 0.60);
+  padding: 130px 0;
+
+}
+
+.request__title {
+  width: fit-content;
+ margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.request__wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.request__item {
+  max-width: 450px;
+  width: 100%;
+  margin: 0px 10px;
+
+}
+
+.request__items-input {
+  border: 1px solid $white;
+  background-color: $dark-blue;
+  color: $white;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 3px;
+
+  &::placeholder {
+    color: $white;
+  }
+}
+
+.request__items-textarea {
+  margin-bottom: 0;
+  height: 143px !important;
+  resize: none;
+}
+
+.request__inner-btn {
+  width: 100%;
+  text-align: center;
+}
+
+.request-btn {
+  // color: $white;
+  border: none;
+}
+
+// end section request
 
 
 

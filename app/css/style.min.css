@@ -556,6 +556,25 @@ body.menu-opened {
   margin-bottom: 30px;
 }
 
+.certificates__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.certificates__item {
+  max-width: 320px;
+  width: 100%;
+}
+.certificates__item img {
+  border-radius: 5px;
+}
+
 .portfolio-grid__inner {
   display: -ms-grid;
   display: grid;
@@ -616,6 +635,82 @@ body.menu-opened {
 .portfolio-grid__item-five {
   grid-column-start: span 2;
   grid-row-start: span 2;
+}
+
+.main-request {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-request--bg {
+  padding: 130px 0;
+}
+
+.request__title {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.request__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 25px;
+}
+
+.request__item {
+  max-width: 450px;
+  width: 100%;
+  margin: 0px 10px;
+}
+
+.request__items-input {
+  border: 1px solid #FFFFFF;
+  background-color: #002744;
+  color: #FFFFFF;
+  padding: 20px 30px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 3px;
+}
+.request__items-input::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+.request__items-input::-moz-placeholder {
+  color: #FFFFFF;
+}
+.request__items-input:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+.request__items-input::-ms-input-placeholder {
+  color: #FFFFFF;
+}
+.request__items-input::placeholder {
+  color: #FFFFFF;
+}
+
+.request__items-textarea {
+  margin-bottom: 0;
+  height: 143px !important;
+  resize: none;
+}
+
+.request__inner-btn {
+  width: 100%;
+  text-align: center;
+}
+
+.request-btn {
+  border: none;
 }
 
 @media (max-width: 1800px) {
@@ -872,6 +967,10 @@ body.menu-opened {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+  }
+  .request__wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 @media (max-width: 600px) {
