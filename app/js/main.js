@@ -34,4 +34,6 @@ $(function () {
 
   }));
 
+  lightGallery(document.querySelector('.gallery'));
+
 });

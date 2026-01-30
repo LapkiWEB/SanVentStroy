@@ -54,6 +54,13 @@ body.menu-opened {
   position: relative;
 }
 
+.container-fluid {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
 .section {
   padding: 50px 0;
 }
@@ -97,7 +104,8 @@ body.menu-opened {
   margin-bottom: 30px;
   color: $white;
 }
-.text{
+
+.text {
   margin-bottom: 30px;
 }
 
