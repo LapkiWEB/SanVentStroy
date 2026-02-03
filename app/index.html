@@ -161,7 +161,7 @@
             - кондиционирования
           </p>
 
-          <div class="global-btn">
+          <div data-modal class="global-btn">
             Оставить заявку
           </div>
         </div>
@@ -235,7 +235,7 @@
             <br>
             - Монтажные и сопутствующие аксессуары
           </p>
-          <div class="global-btn">
+          <div data-modal="" class="global-btn">
             Оставить заявку
           </div>
         </div>
@@ -357,7 +357,7 @@
       <section class="main-request section">
 
         <div class="container">
-          <h2 class="request__title title-h2">
+          <h2 class="request__title title-h3">
             Оставить заявку
           </h2>
           <form class="request-form">
@@ -479,6 +479,47 @@
       </div>
 
     </footer>
+    <div class="modal">
+      <div class="modal__inner">
+        <div class="container">
+          <div class="modal__wrapper">
+    
+            <ul data-close class="close__btn">
+              <li class="close__line close__line1"></li>
+              <li class="close__line close__line2"></li>
+            </ul>
+    
+            <h2 class="modal__title title-h3">
+              Оставить заявку
+            </h2>
+    
+          <form class="request-form">
+            <div class="request__wrapper">
+              <div class="request__item">
+                <div class="request__items">
+                  <input type="text" name="name" class="request__items-input" placeholder="Ваше имя..." required>
+                </div>
+                <div class="request__items">
+                  <input type="text" name="name" class="request__items-input" placeholder="Ваш телефон или почта..." required>
+                </div>
+              </div>
+              <div class="request__item">
+                <div class="request__items">
+                  <textarea class="request__items-input request__items-textarea" name="text"
+                    placeholder="Ваше сообщение..."></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="request__inner-btn">
+              <button class="request-btn global-btn">
+                Отправить
+              </button>
+            </div>
+          </form>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js"></script>
   <script src="js/main.min.js"></script>

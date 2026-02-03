@@ -140,6 +140,15 @@
       // height: 50px !important;
     }
   }
+
+  .certificates {
+    &::before {
+      background-size: cover;
+      top: -100px;
+      bottom: -100px;
+
+    }
+  }
 }
 
 @media(max-width: 1000px) {
