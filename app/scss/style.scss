@@ -460,6 +460,41 @@
 
 // end section request
 
+// start section footer
+
+.footer__inner{
+  display: flex;
+  justify-content: space-between;
+  // justify-content: center;
+  gap: 20px
+}
+.footer__item-menu{
+  display: block;
+  margin-bottom: 10px;
+}
+.footer-btn{
+  margin-bottom: 15px;
+  max-width: 220px;
+  width: 100%;
+}
+.footer__item-descr{
+  margin-bottom: 10px;
+}
+.footer__item{
+  // max-width: 280px;
+  // width: 100%;
+  // width: fit-content;
+}
+.footer__item-btn{
+  // max-width: 250px;
+  // width: 100%;
+  margin-left: 200px;
+}
+.footer-btn{
+  display: block;
+}
+// end section footer
+
 
 
 
