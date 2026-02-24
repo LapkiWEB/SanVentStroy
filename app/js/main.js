@@ -36,6 +36,21 @@ $(function () {
 
   lightGallery(document.querySelector('.gallery'));
   lightGallery(document.querySelector('.portfolio'));
+
+  const container = document.querySelector(".warning");
+  if (document.cookie.indexOf("warning") != -1) {
+    container.classList.remove("warning--active");
+  }
+
+  if (document.querySelector(".warning")) {
+    const apply = container.querySelector(".warning__apply");
+    apply.addEventListener("click", () => {
+      container.classList.remove("warning--active");
+      document.cookie = "warning=true; max-age=2592000; path=/";
+    });
+  };
+
+  
 });
 
 const modalTrigger = document.querySelectorAll('[data-modal]'),

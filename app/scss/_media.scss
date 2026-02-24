@@ -111,7 +111,8 @@
     }
   }
 
-  .catalog {
+  .catalog,
+  .ytp {
 
 
     &::before {
@@ -260,8 +261,17 @@
     height: 400px;
   }
 
-  .catalog {
+  .catalog,
+  .ytp {
     overflow: hidden;
+  }
+
+  .ytp::before {
+    width: 700px;
+    height: 700px;
+    right: -50px;
+
+    bottom: -150px;
   }
 
   .catalog::before {
